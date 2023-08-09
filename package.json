@@ -1,0 +1,23 @@
+{
+  "name": "1.1-proj2-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --out-dir=build",
+    "predeploy": "npm run build",
+    "deploy": "vercel --prod --token Rb6pPlzUQMwIFrBvwJi9XWqs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "images": "^3.2.4",
+    "leaflet": "^1.9.4",
+    "vercel": "^31.2.3"
+  }
+}
